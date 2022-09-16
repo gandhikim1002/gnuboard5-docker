@@ -24,14 +24,13 @@ services:
     ports:
       - 88:80
     restart: always
+    volumes:
+      - ./gnuboard5:/var/www/html
     networks:
       - wpsite
-    links:
-      - db:db
 
 networks:
   wpsite:
-    driver: bridge
 
 volumes:
   db_data:

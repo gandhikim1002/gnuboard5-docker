@@ -125,6 +125,7 @@ RUN set -eux; \
 	curl -o gnuboard5.tar.gz -fSL https://github.com/gnuboard/gnuboard5/tarball/master; \
 	mkdir /usr/src/gnuboard5; \
 	mkdir /usr/src/gnuboard5/data; \
+	mkdir /usr/src/gnuboard5/gnuboard5; \
 	tar -xzf gnuboard5.tar.gz -C /usr/src/gnuboard5 --strip-components=1; \
 	\
 # upstream tarballs include ./wordpress/ so this gives us /usr/src/wordpress
