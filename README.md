@@ -3,8 +3,6 @@
 base is wordpress    
 https://github.com/docker-library/wordpress/tree/master/latest/php7.4/apache
 
-docker-entrypoint.sh file convert from CRLF to LF in Windows 
-
 docker build -t gnuboard-fpm-apache:1.0.0 .
 
 docker-compose up -d
