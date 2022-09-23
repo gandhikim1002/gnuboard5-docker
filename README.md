@@ -11,7 +11,7 @@ http://localhost:88/
 
 Host : db    
 User : gnuboard5    
-Password : Password5!
+Password : Password5!    
 DB : gnuboard5    
 
 비밀번호 : Password5!
