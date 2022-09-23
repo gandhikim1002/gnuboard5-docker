@@ -1,8 +1,7 @@
 # gnuboard5-docker
 
-base is wordpress
-
-docker-entrypoint.sh file convert from CRLF to LF in Windows 
+base is wordpress    
+https://github.com/docker-library/wordpress/tree/master/latest/php7.4/apache
 
 docker build -t gnuboard-fpm-apache:1.0.0 .
 
@@ -12,7 +11,7 @@ http://localhost:88/
 
 Host : db    
 User : gnuboard5    
-Password : password    
+Password : Password5!
 DB : gnuboard5    
 
-비밀번호 : password
+비밀번호 : Password5!

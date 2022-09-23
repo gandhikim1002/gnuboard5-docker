@@ -9,8 +9,8 @@ services:
     environment:
       - MARIADB_DATABASE=gnuboard5
       - MARIADB_USER=gnuboard5
-      - MARIADB_PASSWORD=password
-      - MARIADB_ROOT_PASSWORD=password
+      - MARIADB_PASSWORD=Password5!
+      - MARIADB_ROOT_PASSWORD=Password5!
     expose:
       - 3306
     networks:
